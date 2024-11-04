@@ -48,4 +48,4 @@ var a = 5
 var b =3
 var z = 4 
 
-console.log(a > b && b < z) // true
+console.log(a > b && b < z)
