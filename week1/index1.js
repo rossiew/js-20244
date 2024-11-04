@@ -1,112 +1,51 @@
-// day 1
-
-// console.log() функциясы браузер консоліне хабарлама шығару үшін пайдаланылады
-console.log("Start in  this moment")  
-
-
-// single-line comment
-// 
- 
-/*
-
-multi-line comments
-*/
-
-// day2
-
-// variables and  data types
-
-
-// айнымалылар- деректерді сақтау үшін қолданылатын контейнерлер / 3 жолы бар
-
-
-// ескі түрі ,көп қолданылмайды
-var name = "Anna"
-
-// өзгермелі мәндерді сақтау үшін қолданылады 
-
-let age = 25
-
-
-// тұрақты мәндерді сақтау үшін қолданылады ,бұның мәндерін кейін өзгетуге болмайды
-
-const gender = 'female'
+let v=5, c=10, d=5
+let isAlumni = true
+let isstudent = true
+let san = 0
 
 
 
-// day 3
-// Primitive data types -примитивті дерек түрлері
+console.log(isstudent); //false
 
-// string -мәтіндік деректер 
-let str = 'Hello, World!'
-
-// number - сандар, 5, 3.14
-let num = 10
-
-// boolean - логикалық мәндер  true/false
-let isTrue = true
-
-// null - ештеңе-деген мән ,айнымалыда ешқандай дерек жоқ екенін көрсетеді
-let myNull = null
+if(isstudent){
+    console.log("сизге кируге болмайды ");
 
 
-// undefined - мән берілмеген айнымалының түрі
-let myUndefined
+}
+else if(isstudent || isAlumn){
+    console.log("болады ")
+}
+console.log("san:, !san");
+
+if(a=""){
+    console.log("бос жол")
+
+}
+
+else{
+    console.log(isstudent);
+
+}
 
 
+let  age=20, hasTicket = true, isVip = false;
+
+if((age < 18 && hasTicket) || isVip){
+    console.log("болады");
+
+}
+else{
+    console.log("болмайды");
+}
+
+console.log(d<c)
 
 
+count = 5;
+console.log(!count)
 
-// Type coercion and type checking
-// Type coercion-деректер түрін js -тің автоматты түрде бір түрден екінші түрге ауыстыруы  5+3 =53
-// Type checking - айнымалының деректер түрін тексеру үшін typeof операторын қолдану/ типін тексеру үшін қолданылады 
+var a = 5
+var b =3
+var z = 4 
 
-
-console.log(typeof str) // string
-
-
-// example for type coercion
-let result = "5" + 10
-
-console.log(typeof result)
-
-
-
-
-// day 4 Operators and Expressions- операторлар және өрнектер
-
-// js- тілінде кейбір операторлар басымдыққа ие, бірінші орндалады .
-
-// * , /  немесе ()
-
-// for example:
-let rest = 10 + 5 * 3;  //25 шығады , бірінші көбейту орындалғанына байланысты
-console.log(rest);
-
-
-let rest2 = (10 + 5) * 3; //45 шығады,бірінші жақша орындалуына байланысты 
-console.log(rest2);
-
-// increment 
-let count = 10;
-count++; // count=11
-
-// decreament
-let count2 = 10;
-count2--; // count2=9
-
-
-//  меншіктеу операторы
-let sum=3;
-sum +=5;
-console.log(sum);
-
-
-
-// task for 1 week
-// жаңа файл ашу/ гитхабпен байланыс
-// let ,const қолдана отырып өзі туралы деректер енгізу және консольға шығару
-// коментарии болу /Multi/single/line
-// дерек түрлерін/типін тексеру 
-// операторлармен жұмыс/меншіктеу операторымен
-
+console.log(a > b && b < z) // true
